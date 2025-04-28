@@ -1,0 +1,1 @@
+this note written while taking gtst course
