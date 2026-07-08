@@ -1,8 +1,15 @@
-Every Hacker should know
-Networking , Programming, Linux, System administration
+Date: 20/08/17 E.C :LiSmile: 🔥
+Topics: 
+- What is Linux
+- What is Kernel
+- History of Linux
+- What is Shell and there types
+- What is OS - Operating system
+- Linux distributions/distro
 
-# What is Linux
-- Linux is a kernel.
+
+==# What is Linux==
+- <span style="color:rgb(255, 0, 0)">Linux is a kernel.</span>
 before, Kali Linux used to be called Backtrack 
 
 # What is Kernel
@@ -11,28 +18,27 @@ before, Kali Linux used to be called Backtrack
 - And allocate some resources.
 -![[Pasted image 20250430201608.png]]
 
+---
 
 # History of Linux
-- in 1969 a team lead by computer scientists Ken Thompson and Dennis Ritchie created the first version of "UNIX" on a PDP-7 minicomputer.
+- in 1969 a team lead by computer scientists Ken Thompson and Dennis Ritchie created the first version of "[UNIX]" on a PDP-7 minicomputer.
 - which was chosen mainly because of Thompson's familiarity with the system from his hobby work on it.
-
-BUT IT WASNT CHEAP AND OPEN-SOURCE
-
-- the person called "LINUS TORVALDS" created the "Linux kernel". And posted it online to make it open-source. And it was developed in C programming language.
+- [BUT IT WASN'T CHEAP AND OPEN-SOURCE]
+- Then person called "LINUS TORVALDS" created the "Linux kernel". And posted it online to make it open-source. And it was developed in [C] programming language.
 
 
-- "Richard Stallman" announced the GNU project in 1983 and cofounded the Free Software Foundation in 1985.
-- GNU is a free software replacement in the UNIX OS, But it was just software replacement not full os {Example: Bash, tar, emacs}
-
+- "Richard Stallman" announced the [GNU] project in 1983 and co-founded the Free Software Foundation in 1985.
+- GNU is a free software replacement in the UNIX OS, But it was just software replacement not full os {Example: Bash, tar, emacs....}
 - So GNU + LINUX will give the GNU/Linux OS. 
-- The GNU Linux project was started to create a Unix-like OS created with source code that could be copied, modified, and redistriibuted.
+- The GNU Linux project was started to create a Unix-like OS created with source code that could be copied, modified, and redistributed.
+
 - OS - needs
 	- kernel and
 	- SW part
 
-# What is Shell and there types
-## What is shell
-- users communicate with the kernel by shell.
+---
+# What is shell
+- users communicate with the kernel by [shell].
 - the shell is a command Line Interpreter. It translates commands entered by the user and converts them into a language understood by the Kernel.
 
 ## Types of Shells
@@ -44,11 +50,9 @@ based on their features there are many shells.
 They differ in coloring, piping(weta geba), command compilation, some kind of features.
 
 TO IDENTIFY YOUR SHELL "echo$SHELL"
+	Terminal - linux shell
+	cmd / windows Powershell - windows shell
 ![[Pasted image 20250430204545.png]]
-
-		Terminal - linux shell
-		cmd - windows shell
-		windows Powershell - windows shell
 
 
 ![[Pasted image 20250430204729.png]]
@@ -56,14 +60,20 @@ TO IDENTIFY YOUR SHELL "echo$SHELL"
 ![[Pasted image 20250430204800.png]]
 ![[Pasted image 20250430204811.png]]
 
+to change form one to another 
+- /bin/sh
+- /bin/bash
+
+---
 # What is OS - Operating System
 - we have said UNIX and GNU/Linux as OS but what is OS.
 - OS is the main software part of computer that helps to work on.
 
-- it containes:
+- it contains:
 	- Kernel
-	- Softwares
-	- Desktop environment - graphical interface that provides users with a visual way to interact with the linux OS - >1 in linux
+	- Soft wares
+	- Desktop environment - 
+		- graphical interface that provides users with a visual way to interact with the linux OS, there is >1 in linux
 	- File extensions
 	- Window manager
 ![[Pasted image 20250430205818.png]]
@@ -86,7 +96,7 @@ Which Desktop envt is best?
 ## Windows Manager
 - i3 - windows manager
 		i3 is a popular tiling window manager for Linux that is lightweight, fast, and highly customizable. Instead of overlapping windows, it automatically arranges windows in a grid-like pattern, maximizing screen space and improving workflow efficiency.
-	- different tasks on one screen and you dont need mouse, keyboard driven and lightweight
+	- different tasks on one screen and you don't need mouse, keyboard driven and lightweight
  ![[Pasted image 20250430210855.png]]
 
 ## Why Linux
@@ -95,14 +105,12 @@ Which Desktop envt is best?
 - Most hacking tools
 - most secured - what we do is not monitored because it is open source
 
-
-
 # Linux distributions/distro
-Distro is modified linux kernels, type of OS with different:
-- linux kernel
-- packages (GNU) - SW
-- package manager - like a Microsoft in windows - to install linux SWs
-- desktop UI - desktop envt 
+- Distro is modified linux kernels, type of OS with different:
+	- linux kernel
+	- packages (GNU) - SW
+	- package manager - like a Microsoft in windows - to install linux SWs
+	- desktop UI - desktop envt 
 
 
 So many distros - modified OS form GNU-linux
@@ -119,41 +127,45 @@ So many distros - modified OS form GNU-linux
 - Android
 
 
-What is best for hackers?
+# What is best for hackers?
 - Kali linux
 - Parrot Os - developer mode and hacker mode
 - Garuda
 - Black Arch
 - Ubuntu - no tool only terminal, you customize it, like windows
 
-### Kali Linux
-is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security.
+---
+# Kali Linux
+- is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security.
 
 - Desktop Env: xfce
 - Package manager: apt like app store
 - Shell: zsh
 
-
-### Parrot Os
+---
+# Parrot Os
 is a linux distribution based on Debian with a focus on security, privacy , and development.
 
 - Desktop env: mate
 - package manager: apt
 - shell: bash
+---
 
-### Garuda
+# Garuda
 garuda linux is a linux distribution based on the Arch Linux Os
 - Desktop env: KDE plasma
 - Package manager: pacman
 - shell: fish
 
-
- Do windows have distros?
+---
+## Do windows have distros?
 - windows is not open-source so people won't use/edit it, so there won't be other kind.
 - it just gives updates and adds some feature on it.
 
-## How can we use it- 6 ways
-### A) Main OS/ Main - boot
+---
+# How can we use Linux
+6 ways
+## A) Main OS/ Main - boot
 - Kali Linux installed as the sole OS on the machine
 - advantages: 
 	- performance
@@ -163,16 +175,18 @@ garuda linux is a linux distribution based on the Arch Linux Os
 	- no access to other OS
 	- data loss risk
 
-
-### B) Dual Boot/2 in 1
+---
+## B) Dual Boot/2 in 1
 - Kali linux installed alongside another operating system (usually windows or another linux distribution)
 - advantages
 	- access to multiple os
 	- data preservation
 - disadvantages
-	- complexity resource sharing
+	- complexity 
+	- resource sharing
 
-### C) Live Boot
+---
+## C) Live Boot
 - Refers to running an OS directly from a removable media (like a USB drive or DVD) without installing it on the hard drive of your computer.
 - Advantages:
 	- privacy
@@ -180,24 +194,27 @@ garuda linux is a linux distribution based on the Arch Linux Os
 - disadvantages:
 	- resource sharing
 
-
+---
 ### D) Cloud Terminal
 https://www.webminal.org
 
-
+---
 ### E) Virtual System
 - you need host Os - windows or Mac
+- Computer have a Technology called "Virtualization"
 - Virtualization - method to allocate our memory to the virtual machines/Vm's
+![[Pasted image 20250701093206.png]]
 - Two types
 1. Type 1 Virtualization (Bare-Metal Hypervisor)
 	Hardware => Hypervisor
 	- runs directly on the physical hardware
-	- doesnt require a host os
+	- doesn't require a host os
 	- example: VMware ESXi, Promox, Xen
 	- Advantages:
 		- High performance and efficiency
 		- better resource management and isolation
 		- commonly used in enterprise envts for server virtualization
+	![[Pasted image 20250701093247.png]]
 
 
 2. Type 2 Virtualiation (Hosted Hypervisor)
@@ -208,29 +225,32 @@ https://www.webminal.org
 - Advantages
 	- easier to set up and use
 	- suitable for personal or devt envt
-
+![[Pasted image 20250701093951.png]]
 We need Hyper Visor
 - Oracle VB(virtual box)
 - VMware
 
 Your have to check some system about VM
 1. open task manager
-2. goto performance
+2. goto performance 
 3. open CPU
 	 - if Virtualization is disabled, you have to enable in BIOS settings (check youtube). 
 	 - if it is enabled we are good to go
 
-### F) WSL v2/Windows Subsystem for Linux
+---
+## F) WSL v2/Windows Subsystem for Linux
 
 - gives you linux terminal
 - Preferred
 - go to windows powershell and - run as administrator
 - write down 
 	- Enable-WindowsOptionalFeature -Online -FeatureName Microsoft_Windows_Subsystem-Linux
-- the download kali-linux or ubuntu from MS store
+- then download kali-linux or ubuntu from MS store
 
 To decorate it
 - download Windows Terminal from MS Store
+
+---
 ### G) Termux - Android
 - for running some codes
 - And doing simple things!
